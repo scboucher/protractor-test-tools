@@ -1,0 +1,37 @@
+{
+  "name": "protractor-test-tools",
+  "version": "0.0.1",
+  "description": "Tooling to help writing protractor tests.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "nyc --reporter=html --reporter=text mocha"
+  },
+  "keywords": [
+    "protractor",
+    "test",
+    "e2e",
+    "pageobject"
+  ],
+  "author": "Eric Poitras",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1",
+    "rewire": "^2.5.2",
+    "sinon": "^4.0.1"
+  },
+  "dependencies": {
+    "change-case": "^3.0.1",
+    "lodash": "^4.17.4",
+    "protractor": "^5.2.0",
+    "urijs": "^1.19.0"
+  }
+}

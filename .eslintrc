@@ -1,0 +1,19 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise"
+      ],
+    "env": {
+        "node":true,
+        "mocha": true,
+        "protractor": true
+    },
+    "rules": {
+        "no-var": "error",
+        "no-unused-expression": "info"
+    }
+}
