@@ -150,11 +150,11 @@ describe('tools', function () {
     })
   })
 
-  describe('#pushButton', function () {
-    it('should scroll to and click on the specified item.', function() {
-      let t = tools.pushButton('#MyButton')
-    })
-  })
+  // describe('#pushButton', function () {
+  //   it('should scroll to and click on the specified item.', function() {
+  //     let t = tools.pushButton('#MyButton')
+  //   })
+  // })
     
 
 })
